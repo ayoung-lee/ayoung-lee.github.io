@@ -1,12 +1,5 @@
-/*  Mobile  */
-@media (min-width: 320px) and (max-width: 480px) {
-}
-/*  Tablets  */
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-}
-/*  Laptops  */
-@media (min-width: 1281px) {
-}
+
+
 
 body {
   width: 100vw;
@@ -156,10 +149,10 @@ a {
     background: #8e44ad;
   }
 
-  .upper {
+.upper {
     transform: rotate(180deg);
     background-color: #8e44ad;
-  }
+  } 
 
   #myposts {
     display: flex;
@@ -196,3 +189,25 @@ a {
     border: none;
     box-shadow: 0 0 20px #8e44ad;
   }
+
+/*  Mobile  */
+@media (min-width: 320px) and (max-width: 480px) {
+  .upper {
+   background-color: aqua;
+  }
+  .curved {
+    background-color: aqua;
+  }
+ }
+ /*  Tablets  */
+ @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .upper {
+    background-color: yellowgreen;
+   }
+   .curved {
+     background-color: yellowgreen;
+   }
+ }
+ /*  Laptops  */
+ @media (min-width: 1281px) {
+ }
